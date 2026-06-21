@@ -2,7 +2,7 @@
   <img src="assets\Scott Mascot.png" width="300" alt="Scott — the redpen mascot, a calm veteran reviewer with a red pen behind his ear">
 </p>
 
-<h1 align="center">✏️ <span style="color: red;">redpen</span></h1>
+<h1 align="center" style="color: red;">✏️ redpen</h1>
 
 ---
 
