@@ -1,18 +1,22 @@
 <p align="center">
-  <img src="assets\Scott Mascot.png" width="300" alt="Scott — the redpen mascot, a calm veteran reviewer with a red pen behind his ear">
+  <img src="assets/scott.png" width="300" alt="Scott — the redpen mascot, a calm veteran reviewer with a red pen behind his ear">
 </p>
 
-<h1 align="center" style="color: red;">✏️ redpen</h1>
+<div align="center">
+
+# <img src="assets/redpen.png" alt="" height="34" valign="middle"> $\textcolor{red}{\textsf{redpen}}$
+
+</div>
 
 ---
 
 <p align="center"><em>Want to ship clean? Ping Scott and he red-pens your diff before it ships.</em></p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=2b2b2b&color=000000" alt="Stars">
-  <img src="https://img.shields.io/badge/release-v0.1.0-000000?style=flat-square&labelColor=2b2b2b" alt="Release v0.1.0">
-  <img src="https://img.shields.io/badge/works_with-Claude_Code_%2B_AGENTS.md-000000?style=flat-square&labelColor=2b2b2b" alt="Works with Claude Code + AGENTS.md">
-  <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=2b2b2b" alt="License MIT">
+  <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=8a8a8a&color=000000" alt="Stars">
+  <img src="https://img.shields.io/badge/release-v0.1.0-000000?style=flat-square&labelColor=8a8a8a" alt="Release v0.1.0">
+  <img src="https://img.shields.io/badge/works_with-Claude_Code_%2B_AGENTS.md-000000?style=flat-square&labelColor=8a8a8a" alt="Works with Claude Code + AGENTS.md">
+  <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=8a8a8a" alt="License MIT">
 </p>
 
 Meet **Scott** — a calm, grounded, veteran code reviewer. He's seen everything,
