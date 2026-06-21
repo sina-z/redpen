@@ -2,11 +2,11 @@
   <img src="assets\Scott Mascot.png" width="300" alt="Scott — the redpen mascot, a calm veteran reviewer with a red pen behind his ear">
 </p>
 
-<h1 align="center">✏️ redpen</h1>
+<h1 align="center">✏️ <span style="color: red;">redpen</span></h1>
 
 ---
 
-<p align="center"><em>Scott red-pens your diff before it ships.</em></p>
+<p align="center"><em>Want to ship clean? Ping Scott and he red-pens your diff before it ships.</em></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=2b2b2b&color=000000" alt="Stars">
