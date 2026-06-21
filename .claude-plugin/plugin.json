@@ -1,0 +1,18 @@
+{
+  "name": "redpen",
+  "version": "0.1.0",
+  "description": "Scott red-pens your diff before it ships — catching the embarrassing leftovers (debug output, TODOs, placeholder junk, stray secrets, test artifacts) that were only ever meant for you.",
+  "author": {
+    "name": "Sina"
+  },
+  "homepage": "https://github.com/sina-z/redpen",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "pull-request",
+    "diff",
+    "linting",
+    "pre-ship",
+    "secrets"
+  ]
+}

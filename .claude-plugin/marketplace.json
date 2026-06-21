@@ -1,0 +1,23 @@
+{
+  "name": "redpen-marketplace",
+  "owner": {
+    "name": "Sina",
+    "url": "https://github.com/sina-z"
+  },
+  "metadata": {
+    "description": "Scott's red-pen review tooling for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "redpen",
+      "source": "./",
+      "description": "Scott red-pens your diff before it ships — catching the embarrassing leftovers that were only ever meant for you.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sina"
+      },
+      "category": "development"
+    }
+  ]
+}
