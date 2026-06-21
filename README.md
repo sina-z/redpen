@@ -1,6 +1,19 @@
-# 🖍️ redpen
+<p align="center">
+  <img src="assets\Scott Mascot.png" width="300" alt="Scott — the redpen mascot, a calm veteran reviewer with a red pen behind his ear">
+</p>
 
-**Scott red-pens your diff before it ships.**
+<h1 align="center">✏️ redpen</h1>
+
+---
+
+<p align="center"><em>Scott red-pens your diff before it ships.</em></p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=2b2b2b&color=000000" alt="Stars">
+  <img src="https://img.shields.io/badge/release-v0.1.0-000000?style=flat-square&labelColor=2b2b2b" alt="Release v0.1.0">
+  <img src="https://img.shields.io/badge/works_with-Claude_Code_%2B_AGENTS.md-000000?style=flat-square&labelColor=2b2b2b" alt="Works with Claude Code + AGENTS.md">
+  <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=2b2b2b" alt="License MIT">
+</p>
 
 Meet **Scott** — a calm, grounded, veteran code reviewer. He's seen everything,
 he's not fussed, and he quietly circles the embarrassing leftovers before they
@@ -17,13 +30,13 @@ red-pen list of junk to clean. That's v1. It does one thing and does it calmly.
 
 ## What Scott catches
 
-- 🪵 **Debug output** — `console.log`, `print`, `debugger`, stray breakpoints
-- 💬 **Commented-out code** & dead experiments
-- 📌 **Unresolved markers** — `TODO`, `FIXME`, `HACK`, `XXX`
-- 🔡 **Placeholder & junk text** — `lorem ipsum`, `asdf`, `test123`, profanity
-- 🏠 **Hardcoded local/test values** — `localhost`, personal paths, magic data
-- 🔑 **Stray secrets** — test keys, tokens, credentials (flagged first, masked)
-- 🧪 **Test artifacts** — `.only` / `.skip` left in tests, skipped assertions
+- **Debug output** — `console.log`, `print`, `debugger`, stray breakpoints
+- **Commented-out code** & dead experiments
+- **Unresolved markers** — `TODO`, `FIXME`, `HACK`, `XXX`
+- **Placeholder & junk text** — `lorem ipsum`, `asdf`, `test123`, profanity
+- **Hardcoded local/test values** — `localhost`, personal paths, magic data
+- **Stray secrets** — test keys, tokens, credentials (flagged first, masked)
+- **Test artifacts** — `.only` / `.skip` left in tests, skipped assertions
 
 He flags only **added or changed** lines in the diff — he won't red-pen code you
 didn't touch. And he circles by default; he only cleans things up if you ask.
@@ -81,18 +94,6 @@ Verdict: 3 leftovers. Quick cleanup and it's clean to ship. 🖍️
 ```
 
 Clean diff? He'll tell you that too, and get out of your way.
-
----
-
-## Roadmap
-
-v1 is deliberately tiny — catch the junk. On the backlog:
-
-- as-you-code prevention (a hook that catches leftovers while you write)
-- a pre-ship whole-repo audit
-- Scott questioning the *design*, not just the leftovers (his second talent)
-- a `lite` / `full` / `ultra` / `off` dial
-- a real benchmark measured in **junk caught/prevented** — not lines of code
 
 ---
 
