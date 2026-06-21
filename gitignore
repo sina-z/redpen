@@ -27,6 +27,9 @@ desktop.ini
 *.local
 secrets.json
 
+# Project-local notes — private build handoff, not for publishing
+memory.md
+
 # Python (only relevant if the backlog ever adds Python tooling)
 __pycache__/
 *.py[cod]
