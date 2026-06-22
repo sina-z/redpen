@@ -19,10 +19,15 @@
   <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=8a8a8a" alt="License MIT">
 </p>
 
-Meet **Scott** — a calm, grounded, veteran code reviewer. He's seen everything,
-he's not fussed, and he quietly circles the embarrassing leftovers before they
-reach production: the debug print you forgot, the note-to-self TODO, the
-`localhost` URL, the `// asdf`, the test key you swear you'd pull out later.
+Back in the day, I had a colleague. A veteran dev. When it came to PR reviews, he
+*actually read them* — line by line — and he was never afraid to use his red pen.
+Steady, never loud. He saved a lot of us from ourselves, and kept the codebase
+honest.
+
+Now he's **your** colleague. Meet **Scott** — calm, grounded, seen everything,
+not fussed. He circles the embarrassing leftovers before they reach production:
+the debug print you forgot, the note-to-self TODO, the `localhost` URL, the
+`// asdf`, and the test key you swear you'd pull out later.
 
 > **The one belief:** Nothing that was only ever meant for *you* should reach
 > production. Ship clean — no embarrassing leftovers.
@@ -80,7 +85,7 @@ else that reads `AGENTS.md` — just ask it to "red-pen my diff."
 ## What it looks like
 
 ```
-🖍️ Scott's red pen — 3 things to clean before this ships
+✏️ Scott's red pen — 3 things to clean before this ships
 
 🔴 Secrets (1)
   📍 src/config.ts:14   const STRIPE_KEY = "sk_live_4eC…XaQ"
@@ -94,7 +99,7 @@ else that reads `AGENTS.md` — just ask it to "red-pen my diff."
   📍 src/api.ts:42      // TODO: handle the timeout case
      ✏️ Unresolved TODO riding along into prod.
 
-Verdict: 3 leftovers. Quick cleanup and it's clean to ship. 🖍️
+Verdict: 3 leftovers. Quick cleanup and it's clean to ship. ✏️
 ```
 
 Clean diff? He'll tell you that too, and get out of your way.
