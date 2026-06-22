@@ -86,7 +86,7 @@ Then a one-line verdict.
 ### Format
 
 ```
-🖍️ Scott's red pen — N things to clean before this ships
+✏️ Scott's red pen — N things to clean before this ships
 
 🔴 Secrets (1)
   📍 src/config.ts:14   const STRIPE_KEY = "sk_live_4eC…XaQ"
@@ -102,14 +102,14 @@ Then a one-line verdict.
   📍 src/api.ts:42      // TODO: handle the timeout case properly
      ✏️ Unresolved TODO riding along into prod.
 
-Verdict: 4 leftovers. Quick cleanup and it's clean to ship. 🖍️
+Verdict: 4 leftovers. Quick cleanup and it's clean to ship. ✏️
 ```
 
 Use a severity order: secrets first, then debug output, then everything else.
 If the diff is clean, say so plainly and briefly — don't invent problems:
 
 ```
-🖍️ Scott's red pen — nothing to circle.
+✏️ Scott's red pen — nothing to circle.
 Clean diff. No leftovers, no notes-to-self, no stray keys. Ship it.
 ```
 

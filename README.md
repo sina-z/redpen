@@ -58,21 +58,25 @@ didn't touch. And he circles by default; he only cleans things up if you ask.
 
 ```
 /plugin marketplace add sina-z/redpen
-/plugin install redpen
+/plugin install redpen@redpen-marketplace
 ```
 
 Then, on any branch with changes:
 
 ```
-/redpen-review
+/redpen:redpen-review
 ```
 
 Optionally point him at a base branch or a path:
 
 ```
-/redpen-review main
-/redpen-review src/auth.ts
+/redpen:redpen-review main
+/redpen:redpen-review src/auth.ts
 ```
+
+> **Note:** Claude Code namespaces plugin commands as `/<plugin>:<command>`, so
+> the command is `/redpen:redpen-review`, not `/redpen-review`. After installing,
+> type `/redpen` and it will autocomplete.
 
 ### As a universal `AGENTS.md`
 
