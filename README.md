@@ -24,15 +24,15 @@ Back in the day, I had a colleague. A veteran dev. When it came to PR reviews, h
 Steady, never loud. He saved a lot of us from ourselves, and kept the codebase
 honest.
 
-Now he's **your** colleague. Meet **Scott** — calm, grounded, seen everything,
+> **The one belief:** Nothing that was only ever meant for *you* should reach
+> production. Ship clean — no embarrassing leftovers.
+
+Now he's your colleague. Meet **Scott** — calm, grounded, seen everything,
 not fussed. He circles the embarrassing leftovers before they reach production:
 the debug print you forgot, the note-to-self TODO, the `localhost` URL, the
 `// asdf`, and the test key you swear you'd pull out later.
 
-> **The one belief:** Nothing that was only ever meant for *you* should reach
-> production. Ship clean — no embarrassing leftovers.
-
-redpen reviews the **diff** — the pull-request moment — and hands back a short
+redpen reviews the **diff** and hands back a short
 red-pen list of junk to clean. That's v1. It does one thing and does it calmly.
 
 ---
