@@ -14,8 +14,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=8a8a8a&color=000000" alt="Stars">
-  <img src="https://img.shields.io/badge/release-v0.1.0-000000?style=flat-square&labelColor=8a8a8a" alt="Release v0.1.0">
-  <img src="https://img.shields.io/badge/works_with-Claude_Code_%2B_AGENTS.md-000000?style=flat-square&labelColor=8a8a8a" alt="Works with Claude Code + AGENTS.md">
+  <img src="https://img.shields.io/badge/release-v0.2.0-000000?style=flat-square&labelColor=8a8a8a" alt="Release v0.2.0">
+  <img src="https://img.shields.io/badge/works_with-15%2B_agents-000000?style=flat-square&labelColor=8a8a8a" alt="Works with 15+ agents">
   <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=8a8a8a" alt="License MIT">
 </p>
 
@@ -78,11 +78,87 @@ Optionally point him at a base branch or a path:
 > the command is `/redpen:redpen-review`, not `/redpen-review`. After installing,
 > type `/redpen` and it will autocomplete.
 
+### Codex
+
+Install the plugin (covers the Codex CLI and, after a restart, the desktop app):
+
+```
+codex plugin marketplace add sina-z/redpen
+codex plugin install redpen@redpen
+```
+
+In Codex the review is a skill — invoke it with `@redpen` (or just ask Scott to
+red-pen your diff).
+
+### GitHub Copilot CLI
+
+```
+copilot plugin marketplace add sina-z/redpen
+copilot plugin install redpen@redpen
+```
+
+Or the slash equivalents in an interactive session (`/plugin marketplace add …`,
+`/plugin install …`). No plugin? Copilot also reads
+[`AGENTS.md`](./AGENTS.md) and [`.github/copilot-instructions.md`](./.github/copilot-instructions.md).
+
+### Gemini CLI / Antigravity
+
+```
+gemini extensions install https://github.com/sina-z/redpen
+```
+
+Google's renaming Gemini CLI to Antigravity (`agy`); the same extension installs
+there with `agy plugin install https://github.com/sina-z/redpen`. On Antigravity
+the command arrives as a chat message (`/redpen-review`) rather than a slash menu.
+
+### OpenCode
+
+Run OpenCode from a checkout of this repo and add to `opencode.json`:
+
+```
+{ "plugin": ["./.opencode/plugins/redpen.mjs"] }
+```
+
+OpenCode auto-loads this repo's [`AGENTS.md`](./AGENTS.md) for Scott; the plugin
+registers the `/redpen-review` command (also discovered from `.opencode/command/`
+when run from the checkout).
+
+### pi
+
+```
+pi install git:github.com/sina-z/redpen
+```
+
+Registers `/redpen-review`; the skill carries Scott.
+
+### OpenClaw
+
+```
+clawhub install redpen
+```
+
+Without ClawHub, copy [`.openclaw/skills/redpen`](./.openclaw/skills) into
+`~/.openclaw/skills/`.
+
+### Cursor, Windsurf, Cline, Kiro, Copilot (editor)
+
+No plugin system? Copy the matching rules file into your repo (or your agent's
+rules) and Scott is on call — just ask him to "red-pen my diff":
+[`.cursor/rules/`](./.cursor/rules),
+[`.windsurf/rules/`](./.windsurf/rules),
+[`.clinerules/`](./.clinerules),
+[`.kiro/steering/`](./.kiro/steering),
+[`.github/copilot-instructions.md`](./.github/copilot-instructions.md).
+
 ### As a universal `AGENTS.md`
 
-No plugin system? Copy [`AGENTS.md`](./AGENTS.md) into your repo root (or paste it
-into your agent's rules). Scott then works in Claude Code, Cursor, and anything
-else that reads `AGENTS.md` — just ask it to "red-pen my diff."
+The lowest-effort path. Copy [`AGENTS.md`](./AGENTS.md) into your repo root (or
+paste it into your agent's rules). Scott then works in Zed, Aider, CodeWhale,
+Swival, VS Code's Codex extension, and anything else that reads `AGENTS.md` —
+just ask it to "red-pen my diff."
+
+> Every supported host and which file feeds it:
+> [docs/agent-portability.md](./docs/agent-portability.md).
 
 ---
 

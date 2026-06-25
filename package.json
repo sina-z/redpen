@@ -1,0 +1,43 @@
+{
+  "name": "@sina-z/redpen",
+  "version": "0.2.0",
+  "description": "Scott red-pens your diff before it ships — catching the embarrassing leftovers that were only ever meant for you.",
+  "keywords": ["opencode-plugin", "opencode", "redpen", "pi-package", "pi", "skills", "code-review", "diff"],
+  "license": "MIT",
+  "author": {
+    "name": "Sina",
+    "url": "https://github.com/sina-z"
+  },
+  "homepage": "https://github.com/sina-z/redpen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sina-z/redpen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sina-z/redpen/issues"
+  },
+  "main": "./.opencode/plugins/redpen.mjs",
+  "exports": {
+    ".": "./.opencode/plugins/redpen.mjs",
+    "./plugin": "./.opencode/plugins/redpen.mjs"
+  },
+  "files": [
+    "AGENTS.md",
+    "skills/",
+    "commands/",
+    ".opencode/",
+    "pi-extension/",
+    "assets/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node scripts/check-rule-copies.js"
+  },
+  "pi": {
+    "extensions": ["./pi-extension/index.js"],
+    "skills": ["./skills"]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

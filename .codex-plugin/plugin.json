@@ -1,0 +1,31 @@
+{
+  "name": "redpen",
+  "version": "0.2.0",
+  "description": "Scott red-pens your diff before it ships — catching the embarrassing leftovers (debug output, TODOs, placeholder junk, stray secrets, test artifacts) that were only ever meant for you.",
+  "author": {
+    "name": "Sina",
+    "url": "https://github.com/sina-z"
+  },
+  "homepage": "https://github.com/sina-z/redpen",
+  "repository": "https://github.com/sina-z/redpen",
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "diff", "pre-ship", "secrets"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "redpen",
+    "shortDescription": "Scott red-pens your diff before it ships",
+    "longDescription": "A calm, veteran reviewer who circles the embarrassing leftovers in your diff — debug output, notes-to-self, placeholder junk, hardcoded local values, stray secrets, test artifacts — before they reach production.",
+    "developerName": "Sina",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/sina-z/redpen",
+    "defaultPrompt": [
+      "Red-pen my diff before I ship.",
+      "Check this diff for leftovers.",
+      "Is this ready to ship?"
+    ],
+    "brandColor": "#cc0000",
+    "composerIcon": "./assets/redpen.png",
+    "logo": "./assets/redpen.png"
+  }
+}

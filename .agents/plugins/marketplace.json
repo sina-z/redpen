@@ -1,0 +1,21 @@
+{
+  "name": "redpen",
+  "interface": {
+    "displayName": "redpen"
+  },
+  "plugins": [
+    {
+      "name": "redpen",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sina-z/redpen.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

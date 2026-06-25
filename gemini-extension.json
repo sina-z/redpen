@@ -1,0 +1,6 @@
+{
+  "name": "redpen",
+  "version": "0.2.0",
+  "description": "Scott red-pens your diff before it ships — catching the embarrassing leftovers that were only ever meant for you.",
+  "contextFileName": "AGENTS.md"
+}
