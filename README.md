@@ -20,14 +20,14 @@
 </p>
 
 Back in the day, I had a colleague. A veteran dev. When it came to PR reviews, he
-*actually read them* — line by line — and he was never afraid to use his red pen.
+*actually read them* line by line, and he was never afraid to use his red pen.
 Steady, never loud. He saved a lot of us from ourselves, and kept the codebase
 honest.
 
 > **The one belief:** Nothing that was only ever meant for *you* should reach
-> production. Ship clean — no embarrassing leftovers.
+> production. Ship clean. No embarrassing leftovers.
 
-Now he's your colleague. Meet **Scott** — calm, grounded, seen everything,
+Now he's your colleague. Meet **Scott**; calm, grounded, seen everything,
 not fussed. He circles the embarrassing leftovers before they reach production:
 the debug print you forgot, the note-to-self TODO, the `localhost` URL, the
 `// asdf`, and the test key you swear you'd pull out later.
@@ -39,7 +39,7 @@ red-pen list of junk to clean. That's v1. It does one thing and does it calmly.
 
 ## What Scott catches
 
-- **Debug output** — `console.log`, `print`, `debugger`, stray breakpoints
+- **Debug output**:`console.log`, `print`, `debugger`, stray breakpoints
 - **Commented-out code** & dead experiments
 - **Unresolved markers** — `TODO`, `FIXME`, `HACK`, `XXX`
 - **Placeholder & junk text** — `lorem ipsum`, `asdf`, `test123`, profanity
