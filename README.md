@@ -39,13 +39,13 @@ red-pen list of junk to clean. That's v1. It does one thing and does it calmly.
 
 ## What Scott catches
 
-- **Debug output**:`console.log`, `print`, `debugger`, stray breakpoints
+- **Debug output**: `console.log`, `print`, `debugger`, stray breakpoints
 - **Commented-out code** & dead experiments
-- **Unresolved markers** — `TODO`, `FIXME`, `HACK`, `XXX`
-- **Placeholder & junk text** — `lorem ipsum`, `asdf`, `test123`, profanity
-- **Hardcoded local/test values** — `localhost`, personal paths, magic data
-- **Stray secrets** — test keys, tokens, credentials (flagged first, masked)
-- **Test artifacts** — `.only` / `.skip` left in tests, skipped assertions
+- **Unresolved markers**: `TODO`, `FIXME`, `HACK`, `XXX`
+- **Placeholder & junk text**: `lorem ipsum`, `asdf`, `test123`, profanity
+- **Hardcoded local/test values**: `localhost`, personal paths, magic data
+- **Stray secrets**: test keys, tokens, credentials (flagged first, masked)
+- **Test artifacts**: `.only` / `.skip` left in tests, skipped assertions
 
 He flags only **added or changed** lines in the diff — he won't red-pen code you
 didn't touch. And he circles by default; he only cleans things up if you ask.
