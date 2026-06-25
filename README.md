@@ -47,7 +47,7 @@ red-pen list of junk to clean. That's v1. It does one thing and does it calmly.
 - **Stray secrets**: test keys, tokens, credentials (flagged first, masked)
 - **Test artifacts**: `.only` / `.skip` left in tests, skipped assertions
 
-He flags only **added or changed** lines in the diff — he won't red-pen code you
+He flags only **added or changed** lines in the diff. He won't red-pen code you
 didn't touch. And he circles by default; he only cleans things up if you ask.
 
 ---
@@ -87,7 +87,7 @@ codex plugin marketplace add sina-z/redpen
 codex plugin install redpen@redpen
 ```
 
-In Codex the review is a skill — invoke it with `@redpen` (or just ask Scott to
+In Codex the review is a skill. Invoke it with `@redpen` (or just ask Scott to
 red-pen your diff).
 
 ### GitHub Copilot CLI
@@ -143,7 +143,7 @@ Without ClawHub, copy [`.openclaw/skills/redpen`](./.openclaw/skills) into
 ### Cursor, Windsurf, Cline, Kiro, Copilot (editor)
 
 No plugin system? Copy the matching rules file into your repo (or your agent's
-rules) and Scott is on call — just ask him to "red-pen my diff":
+rules) and Scott is on call. Just ask him to "red-pen my diff":
 [`.cursor/rules/`](./.cursor/rules),
 [`.windsurf/rules/`](./.windsurf/rules),
 [`.clinerules/`](./.clinerules),
