@@ -14,7 +14,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/sina-z/redpen?style=flat-square&labelColor=8a8a8a&color=000000" alt="Stars">
-  <img src="https://img.shields.io/badge/release-v0.2.0-000000?style=flat-square&labelColor=8a8a8a" alt="Release v0.2.0">
+  <img src="https://img.shields.io/github/v/release/sina-z/redpen?style=flat-square&labelColor=8a8a8a&color=000000" alt="Latest release">
   <img src="https://img.shields.io/badge/works_with-15%2B_agents-000000?style=flat-square&labelColor=8a8a8a" alt="Works with 15+ agents">
   <img src="https://img.shields.io/badge/license-MIT-000000?style=flat-square&labelColor=8a8a8a" alt="License MIT">
 </p>
